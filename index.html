@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Praktikum 6</title>
+    </head>
+    <body>
+        <h1>Form dalam HTML</h1>
+        <form action="#" class="container">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama"> <br>
+            <br>
+
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" cols="30" rows="3"></textarea> <br>
+            <br>
+
+            <label for="jeniskelamin">Jenis Kelamin</label> <br>
+            <input type="radio" name="jeniskelamin" id="jeniskelamin" value="laki-laki"/> Laki-laki <br>
+            <input type="radio" name="jeniskelamin" id="jeniskelamin" value="perempuan"/> Perempuan <br>
+            <br>
+            <label for="hobi">Hobi</label> <br>
+            <input type="checkbox" name="hobi" id="hobi" value="Membaca"/> Membaca <br>
+            <input type="checkbox" name="hobi" id="hobi" value="Menulis"/> Menulis <br>
+            <input type="checkbox" name="hobi" id="hobi" value="Menggambar"/> Menggambar <br>
+            <br>
+
+            <input type="button" value="Kirim" onclick="tampilData()" />
+        </form>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>
